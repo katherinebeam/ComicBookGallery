@@ -8,7 +8,7 @@ namespace ComicBookGallery.Controllers
 {
     public class ComicBooksController : Controller
     {
-        public ActionResult Detail()
+        /*public ActionResult Detail()
         {
             if(DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
             {
@@ -17,12 +17,15 @@ namespace ComicBookGallery.Controllers
             }
             return Content("Hello from the ComicBooksController!");
 
-            /*
-               return new ContentResult()
-               {
-                   Content = "Hello from the ComicBooksController!"
-               }; 
-             */
+            
+            return new ContentResult()
+            {
+                Content = "Hello from the ComicBooksController!"
+            }; 
+        } */
+        public ActionResult Detail()
+        {
+            return View();
         }
     }
 }
